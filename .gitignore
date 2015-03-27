@@ -20,7 +20,7 @@ coverage
 build/Release
 
 # built things
-public
+public/bundle.js
 
 # Dependency directory
 # Commenting this out is preferred by some people, see
