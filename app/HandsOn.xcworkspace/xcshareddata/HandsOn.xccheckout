@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0FBCBA71-105C-439C-AB20-540B7DBAA24D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HandsOn</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8913617CE96EA272D2030AEB3C7EEA619C9E61BF</key>
+		<string>https://github.com/TheSwanFactory/hands-on.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HandsOn/HandsOn.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8913617CE96EA272D2030AEB3C7EEA619C9E61BF</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/TheSwanFactory/hands-on.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8913617CE96EA272D2030AEB3C7EEA619C9E61BF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8913617CE96EA272D2030AEB3C7EEA619C9E61BF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>hands-on</string>
+		</dict>
+	</array>
+</dict>
+</plist>
