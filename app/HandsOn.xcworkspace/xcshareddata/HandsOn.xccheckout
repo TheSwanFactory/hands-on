@@ -14,7 +14,7 @@
 		<string>https://github.com/TheSwanFactory/hands-on.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>HandsOn/HandsOn.xcworkspace</string>
+	<string>app/HandsOn.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>8913617CE96EA272D2030AEB3C7EEA619C9E61BF</key>

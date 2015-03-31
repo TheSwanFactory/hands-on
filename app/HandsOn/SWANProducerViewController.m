@@ -203,7 +203,7 @@
 }
 
 -(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
-    NSLog(@"button index %i", buttonIndex);
+    //NSLog(@"button index %i", buttonIndex);
     if (alertView.tag == 001) {
         if (buttonIndex == 1) {
             // delete the recording
