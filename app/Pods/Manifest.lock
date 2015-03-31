@@ -1,0 +1,23 @@
+PODS:
+  - LiveFrost (1.1.2)
+  - MBProgressHUD (0.9.1)
+  - Realm (0.91.1):
+    - Realm/Headers (= 0.91.1)
+  - Realm/Headers (0.91.1)
+  - SDWebImage (3.7.2):
+    - SDWebImage/Core (= 3.7.2)
+  - SDWebImage/Core (3.7.2)
+
+DEPENDENCIES:
+  - LiveFrost
+  - MBProgressHUD
+  - Realm
+  - SDWebImage
+
+SPEC CHECKSUMS:
+  LiveFrost: 8c7e447e6833902ddc2a639faa27e71e091b5062
+  MBProgressHUD: f3747dcbd45a9e855a6b0674550651e0b7ed250c
+  Realm: 81adfc7f43f9301f40bbc46d5e8a10aaf71b9504
+  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
+
+COCOAPODS: 0.36.1
