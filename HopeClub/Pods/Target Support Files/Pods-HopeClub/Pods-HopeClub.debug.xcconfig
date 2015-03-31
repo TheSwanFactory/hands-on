@@ -1,9 +1,0 @@
-CLANG_CXX_LANGUAGE_STANDARD = compiler-default
-GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/LiveFrost" "${PODS_ROOT}/Headers/Public/MBProgressHUD" "${PODS_ROOT}/Headers/Public/Realm" "${PODS_ROOT}/Headers/Public/Realm/Realm" "${PODS_ROOT}/Headers/Public/SDWebImage"
-LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/Realm/core"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/LiveFrost" -isystem "${PODS_ROOT}/Headers/Public/MBProgressHUD" -isystem "${PODS_ROOT}/Headers/Public/Realm" -isystem "${PODS_ROOT}/Headers/Public/Realm/Realm" -isystem "${PODS_ROOT}/Headers/Public/SDWebImage"
-OTHER_CPLUSPLUSFLAGS = -std=c++1y $(inherited) -std=c++1y $(inherited)
-OTHER_LDFLAGS = $(inherited) -ObjC -l"Pods-HopeClub-LiveFrost" -l"Pods-HopeClub-MBProgressHUD" -l"Pods-HopeClub-Realm" -l"Pods-HopeClub-SDWebImage" -l"c++" -l"tightdb-ios" -framework "Accelerate" -framework "CoreGraphics" -framework "ImageIO" -framework "QuartzCore" -framework "UIKit"
-OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
-PODS_ROOT = ${SRCROOT}/Pods
