@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-HopeClub-LiveFrost.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-HopeClub-MBProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-HopeClub-Realm.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-HopeClub-SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-HopeClub.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>484AEEEEB33607215EEED14E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C8064D03C4276166CFD9CF61</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CAECAF03FF9F010222F7593F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EEB1443DC4D10B983A4BE181</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FC4C32D5B0D074529155AA80</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
