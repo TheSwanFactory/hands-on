@@ -1,9 +1,8 @@
 {
   "images" : [
     {
-      "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "hands-on2.png",
+      "size" : "29x29",
       "scale" : "2x"
     },
     {
