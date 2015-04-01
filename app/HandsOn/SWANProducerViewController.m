@@ -10,7 +10,7 @@
 #import "SWANShareViewController.h"
 
 #define kRecordIncrementTime @0.33
-#define kRecordingMaxTime @12
+#define kRecordingMaxTime @6
 
 @interface SWANProducerViewController ()
 
