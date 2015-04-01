@@ -24,16 +24,16 @@
 //    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"Cell"];
     [self.tableView registerNib:[UINib nibWithNibName:@"SWANShareCell" bundle:[NSBundle mainBundle]] forCellReuseIdentifier:@"Cell"];
     self.dataSource = @{@"Social" :@[@"Facebook", @"Twitter", @"Email"],
-                        @"Circles" : @[@"Basketball", @"Prayer", @"Team"],
+                        @"Circles" : @[@"Soccer", @"Prayer", @"Team"],
                         @"Communities" : @[@"Work", @"Church", @"Neighbors"],
-                        @"Integration" : @[@"Calendar", @"Alarm", @"Reminder"],
+                        @"Device" : @[@"Calendar", @"Alarm", @"Reminder"],
                         //@"Connection" :@[@"Follow", @"Link", @"Mute"]
                         };
     
     self.connectionDictionary = @{@"Facebook" : @"132 Friends",
                                   @"Twitter" : @"432 Followers",
                                   @"Email" : @"923 Connections",
-                                  @"Basketball" :@"12 People",
+                                  @"Soccer" :@"12 People",
                                   @"Prayer" : @"45 People",
                                   @"Team" : @"33 People",
                                   @"Work" : @"88 Co-workers",
