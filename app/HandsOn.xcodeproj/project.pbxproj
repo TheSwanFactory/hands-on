@@ -27,6 +27,7 @@
 		0BE374FF1ACACB8900163480 /* trash.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE374FE1ACACB8900163480 /* trash.png */; };
 		0BE375011ACACFDF00163480 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE375001ACACFDF00163480 /* AVFoundation.framework */; };
 		70E1275E5C80F81E3D82F1E0 /* libPods-HandsOn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7392BD399E26FCEAE56AA792 /* libPods-HandsOn.a */; };
+		887A713A1ACBD82B00BCDDE8 /* hands-on2.png in Resources */ = {isa = PBXBuildFile; fileRef = 887A71391ACBD82B00BCDDE8 /* hands-on2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		56A66691F8BDEA8A24D6EFBC /* Pods-HandsOn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandsOn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HandsOn/Pods-HandsOn.debug.xcconfig"; sourceTree = "<group>"; };
 		5F313A5033A09CDA2253B9C3 /* Pods-HandsOn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandsOn.release.xcconfig"; path = "Pods/Target Support Files/Pods-HandsOn/Pods-HandsOn.release.xcconfig"; sourceTree = "<group>"; };
 		7392BD399E26FCEAE56AA792 /* libPods-HandsOn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HandsOn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		887A71391ACBD82B00BCDDE8 /* hands-on2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hands-on2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 		0B61776D1ACAB39F006135BD /* images */ = {
 			isa = PBXGroup;
 			children = (
+				887A71391ACBD82B00BCDDE8 /* hands-on2.png */,
 				0BE374FE1ACACB8900163480 /* trash.png */,
 				0B61776E1ACAB39F006135BD /* camera.png */,
 				0B61776F1ACAB39F006135BD /* christine.gif */,
@@ -288,6 +291,7 @@
 				0B6177771ACAB39F006135BD /* ernie.gif in Resources */,
 				0B61777B1ACAB39F006135BD /* ryan.gif in Resources */,
 				0B6177761ACAB39F006135BD /* christine.gif in Resources */,
+				887A713A1ACBD82B00BCDDE8 /* hands-on2.png in Resources */,
 				0B61774F1ACAAE7E006135BD /* Images.xcassets in Resources */,
 				0B6177791ACAB39F006135BD /* rob.gif in Resources */,
 				0B61776B1ACAAF69006135BD /* SWANProducerViewController.xib in Resources */,
@@ -469,9 +473,11 @@
 			baseConfigurationReference = 56A66691F8BDEA8A24D6EFBC /* Pods-HandsOn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = HandsOn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -480,9 +486,11 @@
 			baseConfigurationReference = 5F313A5033A09CDA2253B9C3 /* Pods-HandsOn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = HandsOn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
