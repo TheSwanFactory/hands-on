@@ -17,11 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"MainCell"];
-    self.headerDataSource = @[@"Producer", @"Share", @"Listener"];
-    self.labelDataSource = @[@"Producer View", @"Share View", @"Inbox"];
-    self.subtitleDataSource = @[@"For recording and sharing short audio clips",
-                                @"Can be shared to a number of different places",
-                                @"A listener can playback and share to their connections"];
+    self.headerDataSource = @[@"Produce", @"Share", @"Listen"];
+    self.labelDataSource = @[@"Creators", @"Doers", @"Connectors"];
+    self.subtitleDataSource = @[@"Share your voice",
+                                @"Make things happen",
+                                @"Feel the pulse"];
     
     // Do any additional setup after loading the view, typically from a nib.
     [self setNeedsStatusBarAppearanceUpdate];

@@ -25,9 +25,10 @@
     [self.tableView registerNib:[UINib nibWithNibName:@"SWANShareCell" bundle:[NSBundle mainBundle]] forCellReuseIdentifier:@"Cell"];
     self.dataSource = @{@"Social" :@[@"Facebook", @"Twitter", @"Email"],
                         @"Circles" : @[@"Basketball", @"Prayer", @"Team"],
-                        @"Communities" : @[@"Work", @"Church", @"Neighborhood"],
+                        @"Communities" : @[@"Work", @"Church", @"Neighbors"],
                         @"Integration" : @[@"Calendar", @"Alarm", @"Reminder"],
-                        @"Connection" :@[@"Follow", @"Link", @"Mute"]};
+                        //@"Connection" :@[@"Follow", @"Link", @"Mute"]
+                        };
     
     self.connectionDictionary = @{@"Facebook" : @"132 Friends",
                                   @"Twitter" : @"432 Followers",

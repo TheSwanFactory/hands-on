@@ -10,7 +10,7 @@
 #import "SWANShareViewController.h"
 
 #define kRecordIncrementTime @0.33
-#define kRecordingMaxTime @6
+#define kRecordingMaxTime @12
 
 @interface SWANProducerViewController ()
 
@@ -285,6 +285,8 @@
 -(void)displayTextEntryAlert {
     UIAlertView *nameAlert = [[UIAlertView alloc]initWithTitle:@"Save Recording" message:@"Enter a title for the recording" delegate:self cancelButtonTitle:@"Don't Save" otherButtonTitles:@"Save", nil];
     [nameAlert setAlertViewStyle:UIAlertViewStylePlainTextInput];
+    UITextField *textField = [nameAlert textFieldAtIndex:0];
+    textField.text = @"Today's thoughts";
     nameAlert.tag = 002;
     [nameAlert show];
 }
