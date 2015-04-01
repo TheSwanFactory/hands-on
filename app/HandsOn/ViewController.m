@@ -17,11 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"MainCell"];
-    self.headerDataSource = @[@"Produce", @"Share", @"Listen"];
-    self.labelDataSource = @[@"Creators", @"Doers", @"Connectors"];
-    self.subtitleDataSource = @[@"Share your voice",
-                                @"Make things happen",
-                                @"Feel the pulse"];
+    self.headerDataSource = @[@"Produce", @"Share", @"Commit"];
+    self.labelDataSource = @[@"Visionaries", @"Connectors", @"Doers"];
+    self.subtitleDataSource = @[@"Voice your hopes",
+                                @"Build the tribe",
+                                @"Find your purpose"];
     
     // Do any additional setup after loading the view, typically from a nib.
     [self setNeedsStatusBarAppearanceUpdate];

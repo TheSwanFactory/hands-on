@@ -286,7 +286,7 @@
     UIAlertView *nameAlert = [[UIAlertView alloc]initWithTitle:@"Save Recording" message:@"Enter a title for the recording" delegate:self cancelButtonTitle:@"Don't Save" otherButtonTitles:@"Save", nil];
     [nameAlert setAlertViewStyle:UIAlertViewStylePlainTextInput];
     UITextField *textField = [nameAlert textFieldAtIndex:0];
-    textField.text = @"Today's thoughts";
+    textField.text = @"Today's thought";
     nameAlert.tag = 002;
     [nameAlert show];
 }
