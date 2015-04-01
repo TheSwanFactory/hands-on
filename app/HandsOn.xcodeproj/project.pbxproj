@@ -48,6 +48,16 @@
 		0BFB59D51ACC273F00CA892E /* Mute.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BFB59CF1ACC273F00CA892E /* Mute.png */; };
 		0BFB59D61ACC273F00CA892E /* Prayer.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BFB59D01ACC273F00CA892E /* Prayer.png */; };
 		0BFB59D71ACC273F00CA892E /* Team.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BFB59D11ACC273F00CA892E /* Team.png */; };
+		0BFB59DB1ACC32CE00CA892E /* SWANFollowerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFB59D91ACC32CE00CA892E /* SWANFollowerView.m */; };
+		0BFB59DC1ACC32CE00CA892E /* SWANFollowerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BFB59DA1ACC32CE00CA892E /* SWANFollowerView.xib */; };
+		0BFB59E01ACC38EB00CA892E /* followerbackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0BFB59DF1ACC38EB00CA892E /* followerbackground.jpg */; };
+		0BFB59E41ACC3ABA00CA892E /* SWANListenerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFB59E21ACC3ABA00CA892E /* SWANListenerView.m */; };
+		0BFB59E51ACC3ABA00CA892E /* SWANListenerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BFB59E31ACC3ABA00CA892E /* SWANListenerView.xib */; };
+		0BFB59E91ACC421800CA892E /* SWANPlaybackCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFB59E71ACC421800CA892E /* SWANPlaybackCell.m */; };
+		0BFB59EA1ACC421800CA892E /* SWANPlaybackCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BFB59E81ACC421800CA892E /* SWANPlaybackCell.xib */; };
+		0BFB59ED1ACC433D00CA892E /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BFB59EB1ACC433D00CA892E /* play.png */; };
+		0BFB59EE1ACC433D00CA892E /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BFB59EC1ACC433D00CA892E /* stop.png */; };
+		0BFB59F01ACC43A200CA892E /* shareblack.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BFB59EF1ACC43A200CA892E /* shareblack.png */; };
 		70E1275E5C80F81E3D82F1E0 /* libPods-HandsOn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7392BD399E26FCEAE56AA792 /* libPods-HandsOn.a */; };
 		887A713A1ACBD82B00BCDDE8 /* hands-on2.png in Resources */ = {isa = PBXBuildFile; fileRef = 887A71391ACBD82B00BCDDE8 /* hands-on2.png */; };
 /* End PBXBuildFile section */
@@ -114,6 +124,19 @@
 		0BFB59CF1ACC273F00CA892E /* Mute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mute.png; sourceTree = "<group>"; };
 		0BFB59D01ACC273F00CA892E /* Prayer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Prayer.png; sourceTree = "<group>"; };
 		0BFB59D11ACC273F00CA892E /* Team.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Team.png; sourceTree = "<group>"; };
+		0BFB59D81ACC32CE00CA892E /* SWANFollowerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWANFollowerView.h; sourceTree = "<group>"; };
+		0BFB59D91ACC32CE00CA892E /* SWANFollowerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWANFollowerView.m; sourceTree = "<group>"; };
+		0BFB59DA1ACC32CE00CA892E /* SWANFollowerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SWANFollowerView.xib; sourceTree = "<group>"; };
+		0BFB59DF1ACC38EB00CA892E /* followerbackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = followerbackground.jpg; sourceTree = "<group>"; };
+		0BFB59E11ACC3ABA00CA892E /* SWANListenerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWANListenerView.h; sourceTree = "<group>"; };
+		0BFB59E21ACC3ABA00CA892E /* SWANListenerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWANListenerView.m; sourceTree = "<group>"; };
+		0BFB59E31ACC3ABA00CA892E /* SWANListenerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SWANListenerView.xib; sourceTree = "<group>"; };
+		0BFB59E61ACC421800CA892E /* SWANPlaybackCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWANPlaybackCell.h; sourceTree = "<group>"; };
+		0BFB59E71ACC421800CA892E /* SWANPlaybackCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWANPlaybackCell.m; sourceTree = "<group>"; };
+		0BFB59E81ACC421800CA892E /* SWANPlaybackCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SWANPlaybackCell.xib; sourceTree = "<group>"; };
+		0BFB59EB1ACC433D00CA892E /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		0BFB59EC1ACC433D00CA892E /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		0BFB59EF1ACC43A200CA892E /* shareblack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shareblack.png; sourceTree = "<group>"; };
 		56A66691F8BDEA8A24D6EFBC /* Pods-HandsOn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandsOn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HandsOn/Pods-HandsOn.debug.xcconfig"; sourceTree = "<group>"; };
 		5F313A5033A09CDA2253B9C3 /* Pods-HandsOn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandsOn.release.xcconfig"; path = "Pods/Target Support Files/Pods-HandsOn/Pods-HandsOn.release.xcconfig"; sourceTree = "<group>"; };
 		7392BD399E26FCEAE56AA792 /* libPods-HandsOn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HandsOn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -219,6 +242,15 @@
 				0BFB59B51ACC1FA900CA892E /* SWANIndividualCell.h */,
 				0BFB59B61ACC1FA900CA892E /* SWANIndividualCell.m */,
 				0BFB59B71ACC1FA900CA892E /* SWANIndividualCell.xib */,
+				0BFB59D81ACC32CE00CA892E /* SWANFollowerView.h */,
+				0BFB59D91ACC32CE00CA892E /* SWANFollowerView.m */,
+				0BFB59DA1ACC32CE00CA892E /* SWANFollowerView.xib */,
+				0BFB59E11ACC3ABA00CA892E /* SWANListenerView.h */,
+				0BFB59E21ACC3ABA00CA892E /* SWANListenerView.m */,
+				0BFB59E31ACC3ABA00CA892E /* SWANListenerView.xib */,
+				0BFB59E61ACC421800CA892E /* SWANPlaybackCell.h */,
+				0BFB59E71ACC421800CA892E /* SWANPlaybackCell.m */,
+				0BFB59E81ACC421800CA892E /* SWANPlaybackCell.xib */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -226,6 +258,10 @@
 		0B61776D1ACAB39F006135BD /* images */ = {
 			isa = PBXGroup;
 			children = (
+				0BFB59EF1ACC43A200CA892E /* shareblack.png */,
+				0BFB59EB1ACC433D00CA892E /* play.png */,
+				0BFB59EC1ACC433D00CA892E /* stop.png */,
+				0BFB59DF1ACC38EB00CA892E /* followerbackground.jpg */,
 				0BFB59CC1ACC273F00CA892E /* Basketball.png */,
 				0BFB59CD1ACC273F00CA892E /* Follow.png */,
 				0BFB59CE1ACC273F00CA892E /* Link.png */,
@@ -356,6 +392,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B6177781ACAB39F006135BD /* heart.png in Resources */,
+				0BFB59EA1ACC421800CA892E /* SWANPlaybackCell.xib in Resources */,
+				0BFB59E01ACC38EB00CA892E /* followerbackground.jpg in Resources */,
 				0BFB59D61ACC273F00CA892E /* Prayer.png in Resources */,
 				0BFB59D71ACC273F00CA892E /* Team.png in Resources */,
 				0B61777A1ACAB39F006135BD /* rocket.png in Resources */,
@@ -371,16 +409,21 @@
 				0BFB59A71ACC070900CA892E /* SWANShareViewController.xib in Resources */,
 				0BFB59D51ACC273F00CA892E /* Mute.png in Resources */,
 				0B6177761ACAB39F006135BD /* christine.gif in Resources */,
+				0BFB59E51ACC3ABA00CA892E /* SWANListenerView.xib in Resources */,
 				887A713A1ACBD82B00BCDDE8 /* hands-on2.png in Resources */,
 				0BFB59C71ACC25AA00CA892E /* Calendar.png in Resources */,
+				0BFB59ED1ACC433D00CA892E /* play.png in Resources */,
 				0BFB59CB1ACC25AA00CA892E /* Work.png in Resources */,
 				0B61774F1ACAAE7E006135BD /* Images.xcassets in Resources */,
+				0BFB59DC1ACC32CE00CA892E /* SWANFollowerView.xib in Resources */,
 				0BFB59A91ACC0F9900CA892E /* left.png in Resources */,
 				0BFB59BF1ACC229600CA892E /* Twitter.png in Resources */,
 				0BFB59BD1ACC229600CA892E /* Email.png in Resources */,
+				0BFB59F01ACC43A200CA892E /* shareblack.png in Resources */,
 				0BFB59D31ACC273F00CA892E /* Follow.png in Resources */,
 				0BFB59B91ACC1FA900CA892E /* SWANIndividualCell.xib in Resources */,
 				0BFB59D41ACC273F00CA892E /* Link.png in Resources */,
+				0BFB59EE1ACC433D00CA892E /* stop.png in Resources */,
 				0B6177791ACAB39F006135BD /* rob.gif in Resources */,
 				0B61776B1ACAAF69006135BD /* SWANProducerViewController.xib in Resources */,
 				0BFB59C61ACC25AA00CA892E /* Alarm.png in Resources */,
@@ -440,8 +483,11 @@
 				0B6177441ACAAE7E006135BD /* AppDelegate.m in Sources */,
 				0BFB59B81ACC1FA900CA892E /* SWANIndividualCell.m in Sources */,
 				0BFB59A61ACC070900CA892E /* SWANShareViewController.m in Sources */,
+				0BFB59E41ACC3ABA00CA892E /* SWANListenerView.m in Sources */,
+				0BFB59DB1ACC32CE00CA892E /* SWANFollowerView.m in Sources */,
 				0B6177471ACAAE7E006135BD /* HandsOn.xcdatamodeld in Sources */,
 				0B61774A1ACAAE7E006135BD /* ViewController.m in Sources */,
+				0BFB59E91ACC421800CA892E /* SWANPlaybackCell.m in Sources */,
 				0BFB59AD1ACC1AA100CA892E /* SWANShareCell.m in Sources */,
 				0B61776A1ACAAF69006135BD /* SWANProducerViewController.m in Sources */,
 				0B6177411ACAAE7E006135BD /* main.m in Sources */,

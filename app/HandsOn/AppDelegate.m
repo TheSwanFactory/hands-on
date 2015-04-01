@@ -17,6 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [[NSUserDefaults standardUserDefaults]setObject:nil forKey:@"kRecordings"];
+    [[NSUserDefaults standardUserDefaults]synchronize];
     return YES;
 }
 

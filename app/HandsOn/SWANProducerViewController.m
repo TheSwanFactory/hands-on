@@ -68,11 +68,14 @@
 
 -(void)prepareAudioControllers {
      // Set the audio file
+    
+    NSString *randomString = [NSString stringWithFormat:@"%i.m4a", arc4random_uniform(99999)];
      NSArray *pathComponents = [NSArray arrayWithObjects:
      [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject],
-     @"MyAudioMemo.m4a",
+     randomString,
      nil];
      NSURL *outputFileURL = [NSURL fileURLWithPathComponents:pathComponents];
+    self.recordLocationURL = [NSString stringWithFormat:@"%@", outputFileURL];
      
      // Setup audio session
      AVAudioSession *session = [AVAudioSession sharedInstance];
@@ -169,8 +172,8 @@
             return;
         }
         
-        NSLog(@"Recording Second:%f", self.recordingSecond);
-        NSLog(@"Recording Percentage:%f", self.recordingCompleteAsPercentage);
+//        NSLog(@"Recording Second:%f", self.recordingSecond);
+//        NSLog(@"Recording Percentage:%f", self.recordingCompleteAsPercentage);
         [self setRecordButtonTextToString:self.recordLabels[self.currentRecordLabelArrayPointer]];
         if (self.currentRecordLabelArrayPointer >= self.recordLabels.count-1) {
             self.currentRecordLabelArrayPointer = 0;
@@ -212,6 +215,46 @@
             // delete the recording
             [self deleteRecording];
         }
+    } else if (alertView.tag == 002) {
+        // text entry alert
+        if (buttonIndex == 0) {
+            
+        } else {
+            NSString *nameString = [[alertView textFieldAtIndex:0] text];
+            if ([nameString isEqualToString:@""]) {
+                UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Name cant be blank" message:nil delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+                alert.tag = 003;
+                [alert show];
+            } else {
+                NSDictionary *fileDictionary = @{@"filepath" : self.recordLocationURL,
+                                                 @"name" : nameString,
+                                                 @"producer" : @"Ryan Derfler",
+                                                 @"imageName" : @"ryan"};
+                NSMutableArray *mutArray = [[NSUserDefaults standardUserDefaults]objectForKey:@"kRecordings"];
+                if (!mutArray) {
+                    mutArray = [[NSMutableArray alloc]initWithArray:@[fileDictionary]];
+                } else {
+                    [mutArray addObject:fileDictionary];
+                }
+                [[NSUserDefaults standardUserDefaults]setObject:mutArray forKey:@"kRecordings"];
+                [[NSUserDefaults standardUserDefaults]synchronize];
+                [self prepareAudioControllers];
+                self.isRecording = NO;
+                self.recordingSecond = 0.0;
+                self.recordingCompleteAsPercentage = 0.0;
+                self.currentRecordLabelArrayPointer = 0;
+                self.recordProgressBar.progressDirection = M13ProgressViewBorderedBarProgressDirectionLeftToRight;
+                self.recordProgressBar.cornerType = M13ProgressViewBorderedBarCornerTypeCircle;
+                [self.recordProgressBar performAction:M13ProgressViewActionFailure animated:YES];
+                [self.recordProgressBar setProgress:self.recordingCompleteAsPercentage animated:YES];
+                UIAlertView *successAlert = [[UIAlertView alloc]initWithTitle:@"Save Complete" message:nil delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+                [successAlert show];
+            }
+        }
+       
+        
+    } else if (alertView.tag == 003) {
+        [self displayTextEntryAlert];
     }
 }
 
@@ -235,7 +278,15 @@
 -(void)pauseRecording {
     [self setRecordButtonTextToString:@"Stopped"];
     [self.audioRecorder stop];
+    [self displayTextEntryAlert];
 
+}
+
+-(void)displayTextEntryAlert {
+    UIAlertView *nameAlert = [[UIAlertView alloc]initWithTitle:@"Save Recording" message:@"Enter a title for the recording" delegate:self cancelButtonTitle:@"Don't Save" otherButtonTitles:@"Save", nil];
+    [nameAlert setAlertViewStyle:UIAlertViewStylePlainTextInput];
+    nameAlert.tag = 002;
+    [nameAlert show];
 }
 
 -(void)playbackRecording {
