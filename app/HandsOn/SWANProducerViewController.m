@@ -7,6 +7,7 @@
 //
 
 #import "SWANProducerViewController.h"
+#import "SWANShareViewController.h"
 
 #define kRecordIncrementTime @0.33
 #define kRecordingMaxTime @12
@@ -187,6 +188,8 @@
 }
 
 - (IBAction)shareButtonTapped:(id)sender {
+    SWANShareViewController *shareView = [[SWANShareViewController alloc]initWithNibName:@"SWANShareViewController" bundle:[NSBundle mainBundle]];
+    [self presentViewController:shareView animated:YES completion:nil];
     
 }
 - (IBAction)trashButtonTapped:(id)sender {
@@ -257,4 +260,7 @@
 }
 
 
+- (IBAction)backTapped:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 @end

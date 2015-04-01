@@ -33,5 +33,6 @@
 // audio stuff
 @property (strong, nonatomic) AVAudioRecorder *audioRecorder;
 @property (strong, nonatomic) AVAudioPlayer *audioPlayer;
+- (IBAction)backTapped:(id)sender;
 
 @end

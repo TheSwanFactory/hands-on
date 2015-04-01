@@ -77,6 +77,15 @@
                         <action selector="trashButtonTapped:" destination="-1" eventType="touchUpInside" id="bqP-gB-huW"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dLw-9W-KyQ">
+                    <rect key="frame" x="8" y="50" width="32" height="32"/>
+                    <state key="normal" image="left.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="backTapped:" destination="-1" eventType="touchUpInside" id="fO6-i6-fpV"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
@@ -84,6 +93,7 @@
         </view>
     </objects>
     <resources>
+        <image name="left.png" width="64" height="64"/>
         <image name="ryan.gif" width="96" height="96"/>
         <image name="trash.png" width="64" height="64"/>
     </resources>

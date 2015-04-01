@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "SWANProducerViewController.h"
+#import "SWANShareViewController.h"
 
 @interface ViewController : UIViewController
 - (IBAction)oneTapped:(id)sender;
